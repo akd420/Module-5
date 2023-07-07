@@ -80,7 +80,31 @@ nav a {
 }
 /* main section */
 .about {
-  margin: 130px 230px;
+  margin: 130px 0px;
   background-color: rgba(255, 248, 243, 1);
   padding: 130px 150px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: rgba(117, 117, 117, 1);
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-des{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
 }
