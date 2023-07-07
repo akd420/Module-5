@@ -167,3 +167,10 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+/* footer style */
+footer{
+    display: flex;
+    background-color: rgba(255, 248, 243, 1);
+    padding: 130px 200px;
+    margin-top: 110px;
+}
